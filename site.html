@@ -38,11 +38,19 @@
           <span id="total-time">00:00</span>
         </div>
 
-        <div class="controls">
-          <button onclick="prevMusic()">«</button>
-          <button id="playPause" onclick="togglePlay()">▶</button>
-          <button onclick="nextMusic()">»</button>
-        </div>
+<div class="controls">
+  <button class="laterais" onclick="prevMusic()">
+    <img src="/img/left.png" alt="">
+  </button>
+
+  <button class="play-button" onclick="togglePlay()">
+    <img id="playPauseicon" src="/img/play.png" alt="">
+  </button>
+
+  <button class="laterais" onclick="nextMusic()">
+    <img src="/img/right.png" alt="">
+  </button>
+</div>
 
         <audio id="audio"></audio>
       </div>

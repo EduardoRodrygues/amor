@@ -55,6 +55,7 @@ const musicas = [
 let indiceAtual = 0;
 const audio = document.getElementById("audio");
 const playPauseBtn = document.getElementById("playPause");
+const playPauseBtnicon = document.getElementById("playPauseicon");
 const musicTitle = document.getElementById("music-title");
 const albumImage = document.getElementById("album-image");
 const currentTimeEl = document.getElementById("current-time");
@@ -72,10 +73,10 @@ function carregarMusica(indice) {
 function togglePlay() {
   if (audio.paused) {
     audio.play();
-    playPauseBtn.textContent = "❚❚";
+    playPauseBtnicon.src = "/img/pause.png";
   } else {
     audio.pause();
-    playPauseBtn.textContent = "▶";
+    playPauseBtnicon.src = "/img/play.png";
   }
 }
 
