@@ -76,7 +76,7 @@ header h1 {
 }
 
 #cartinhas {
-  padding-bottom: 60px; /* Aqui o espaço entre o botão e o fim da página */
+  padding-bottom: 60px; 
 }
 
 /* PLAYER DE MÚSICA */
@@ -140,7 +140,7 @@ header h1 {
 
 /* Botões laterais */
 .controls button.laterais {
-  width: 30;
+  width: 30px;
   height: 30px;
   background: #ff90b3;
   border: none;
@@ -250,7 +250,7 @@ header h1 {
 
 #cartinhas-lista {
   display: none;
-  padding: 10px 720px;
+  padding: 1% 35%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -288,7 +288,7 @@ header h1 {
   overflow-y: auto;
   max-height: max-content;
   text-align: left;
-  max-width: 30%;
+  max-width: 40%;
 }
 
 /* RESPONSIVIDADE */
