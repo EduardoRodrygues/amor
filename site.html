@@ -6,7 +6,7 @@
   <title>Feliz 1 ano mozin</title>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="site.css" />
+  <link rel="stylesheet" href="css/site.css" />
 </head>
 <body>
 
@@ -16,19 +16,19 @@
 
   <section>
     <div class="item">
-
       <div class="image-container">
         <img src="img/img1.jpg" alt="Imagem 1" class="image active" />
         <img src="img/img2.jpg" alt="Imagem 2" class="image" />
-        <img src="img/img3.jpg" alt="Imagem 3" class="image" />
+        <img src="img/img3.png" alt="Imagem 3" class="image" />
         <img src="img/img4.jpg" alt="Imagem 4" class="image" />
         <img src="img/img5.jpg" alt="Imagem 5" class="image" />
-        <img src="img/img6.jpg" alt="Imagem 6" class="image" />
+        <img src="img/img6.png" alt="Imagem 6" class="image" />
         <img src="img/img7.jpg" alt="Imagem 7" class="image" />
-
+        <img src="img/img8.png" alt="Imagem 7" class="image" />
+        <img src="img/img9.jpg" alt="Imagem 7" class="image" />
+        <img src="img/img10.jpg" alt="Imagem 7" class="image" />
       </div>
 
-      <!-- Player de Música -->
       <div class="player">
         <div class="album-cover">
           <img id="album-image" src="" alt="Capa do Álbum">
@@ -44,23 +44,21 @@
           <span id="total-time">00:00</span>
         </div>
 
-<div class="controls">
-  <button class="laterais" onclick="prevMusic()">
-    <img src="/img/left.png" alt="">
-  </button>
+        <div class="controls">
+          <button class="laterais" onclick="prevMusic()">
+            <img src="/img/left.png" alt="">
+          </button>
 
-  <button class="play-button" onclick="togglePlay()">
-    <img id="playPauseicon" src="/img/play.png" alt="">
-  </button>
+          <button class="play-button" onclick="togglePlay()">
+            <img id="playPauseicon" src="/img/play.png" alt="">
+          </button>
 
-  <button class="laterais" onclick="nextMusic()">
-    <img src="/img/right.png" alt="">
-  </button>
-</div>
-
+          <button class="laterais" onclick="nextMusic()">
+            <img src="/img/right.png" alt="">
+          </button>
+        </div>
         <audio id="audio"></audio>
       </div>
-      <!-- Fim Player -->
 
       <div class="contador">
         <h2>Estamos juntos há:</h2>
@@ -84,16 +82,17 @@
         </div>
       </div>
 
-      <!-- Botão de Cartinhas e Cartinhas -->
       <div id="cartinhas">
         <button id="mostrar-cartinhas">Mostrar Cartinhas</button>
         <div id="cartinhas-lista"></div>
         <div id="cartinha-conteudo"></div>
       </div>
-
     </div>
   </section>
 
-  <script src="site.js"></script>
+  <script src="js/imagem.js"></script>
+  <script src="js/cartinha.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/contador.js"></script>
 </body>
 </html>
