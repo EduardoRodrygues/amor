@@ -1,9 +1,13 @@
 // Array com o conteúdo das cartinhas
 const cartinhasTextos = [
   { titulo: "O Início de Tudo", 
-    mensagem: "Foi muita sorte a gente ter se conhecido naquela semana de carnaval, e desde então tudo foi incrível. Viramos amigos, melhores amigos, ficamos gays um com o outro e começamos a namorar.", mensagem2: "Te pedir em namoro em 29/06 foi uma das melhores decisões da minha vida. Desde então, vivemos momentos únicos, com abraços, risadas e beijos que dizem tudo.",
+    mensagem: "Foi muita sorte a gente ter se conhecido naquela semana de carnaval, e desde então tudo foi incrível. Viramos amigos, melhores amigos, ficamos gays um com o outro e começamos a namorar.",
+   mensagem2: "Te pedir em namoro em 29/06 foi uma das melhores decisões da minha vida. Desde então, vivemos momentos únicos, com abraços, risadas e beijos que dizem tudo.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
    },
 
   { titulo: "Dois Meses de Nós", 
@@ -11,6 +15,9 @@ const cartinhasTextos = [
     mensagem2: "Teve o dia que quis ficar sozinho e percebi que não quero ficar longe de você, porque sua presença virou essencial para mim. Você me mostrou o que é amar e ser amado, e sou muito grato por isso.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
    },
 
   { titulo: "A Nossa Conexão Natural ", 
@@ -18,6 +25,9 @@ const cartinhasTextos = [
     mensagem2: "Obrigado por ser essa pessoa melosa, grudendinha e maravilhosa que eu amo tanto. E claro, que a gente continue sendo dois bobos apaixonados, com muitos beijos, abraços, love-love, e principalmente, amor.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
   },
 
   { titulo: "Um Passo de Cada Vez ", 
@@ -25,6 +35,9 @@ const cartinhasTextos = [
     mensagem2: "Cada dia só reforça o quanto quero você ao meu lado. E claro, o presente (uma havaiana simples, mas cheia de amor e carinho) é só um lembrete de todos os passos lindos que demos para chegar onde chegamos juntos.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
   },
 
   { titulo: "Aliançados e Apaixonados", 
@@ -32,6 +45,9 @@ const cartinhasTextos = [
     mensagem2: "Esse mês foi cheio de momentos especiais, mas o que mais marcou foi como nos conhecemos melhor. Os Dates trouxeram  tanta felicidade e amor, foram tão especiais para mim, viraram momentos que vou guardar no coração para sempre.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
   },
 
   { titulo: "Longe, Mas Próximos", 
@@ -39,6 +55,9 @@ const cartinhasTextos = [
     mensagem2: "A resenha com seus amigos foi legal, até curti fazer o slide no fim (apesar das reclamações), foi divertido, por mais que eu tenha sido um pouco chato.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
   },
 
   { titulo: "Mais Que Férias, Amor", 
@@ -46,6 +65,9 @@ const cartinhasTextos = [
     mensagem2: "O presente incrível que você fez foi incrível e me mostrou, mais uma vez, o quanto você se importa comigo. Esses dias juntos foram especiais, poder passar várias horas com você, rir, conversar, aproveitar o tempo sem preocupações ... foi muito bom.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
   },
 
   { titulo: "Eu  Erreeeeiiiiii", 
@@ -53,6 +75,9 @@ const cartinhasTextos = [
     mensagem2: "Acabei sendo bem negligente com você meu amor, não te dando o cuidado e a atenção que você merece, me desculpa amor. Não foi um dos melhores meses, mas conseguimos supera-lo e continuamos crescendo juntos.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
   },
   
   { titulo: "Desculpas e Gratidão", 
@@ -60,6 +85,9 @@ const cartinhasTextos = [
     mensagem2: "Tenho que te agradecer também, porque seu cuidado comigo, tipo quando fiquei fodido de dor nas costas,  você tirou um tempo para me ajudar, foi um gesto tão fofo, que significou muito para mim. Só me faz ter mais certeza de que estar com você é a melhor coisa que me aconteceu.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
   },
 
   { titulo: "Novas Experiências e Amor", 
@@ -67,6 +95,9 @@ const cartinhasTextos = [
     mensagem2: "Foi mal ter escondido aquele problema de você por tanto tempo. Eu devia ter confiado mais em nós dois e te contado antes. Mas fico muito feliz que, mesmo com isso, a gente conseguiu conversar e resolver tudo de uma forma simples, mostrando que o problema não era tão grande quanto eu imaginava.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
   },
 
   { titulo: "Amor Simples e Forte", 
@@ -74,9 +105,21 @@ const cartinhasTextos = [
     mensagem2: "Aquele dia na missa foi marcante, principalmente pela mensagem sobre como os conflitos fazem parte e ajudam a fortalecer o casal. Isso me fez pensar no quanto quero seguir ao seu lado, crescendo, aprendendo e aproveitando cada momento, sejam eles leves ou difíceis.",
     mensagem3: "",
     mensagem4: "",
+    mensagem5: "",
+    mensagem6: "",
+    mensagem7: "",
+    
   },
 
-  { titulo: "1 Ano de Amor", mensagem: "Chegamos até aqui e quero mais mil anos contigo." }
+  { titulo: "Um Ano de Amor",
+    mensagem: "Hoje a gente completa 1 ano de namoro. Um ano desde aquele 29/06/24 que mudou minha vida pra melhor. E é surreal pensar como tudo passou tão rápido, mas ao mesmo tempo foi tão intenso e cheio de momentos que vou guardar pra sempre.  ",  
+    mensagem2: "Nesse tempo, a gente riu, brigou, fez as pazes, se abraçou, se perdeu nas piadas, se grudou, se cuidou… Teve mês que estivemos mais distante, outros que a gente quase morou junto. Teve resenha com seus amigos, meus amigos, nossos amigos, sequestros, gloss roubado nos beijos, cabelos bagunçados, cosquinhas, presente simples, presentes complexos e muito mais.",
+    mensagem3: "Eu sei que nem sempre fui o melhor namorado do mundo, mas sempre me esforcei ao máximo para ser a minha melhor versão para você,  mesmo vacilando em algumas situações. Mas a real é que você é a melhor coisa que me aconteceu. E não importa se o mês tá conturbado, se a rotina tá pesada, se a gente briga, o que importa é que no final das contas, a gente sempre encontra um no outro aquele lugar seguro.",
+    mensagem4: "Você me ensinou o que é parceria, o valor de cuidar e ser cuidado, de ouvir, de rir até das situações mais bestas e de valorizar o simples. Porque o simples com você, vira especial.",
+    mensagem5: "Me sinto muito importante e grato por realizar um dos seus sonhos, o de namorar, e por estar ao seu lado nesse 1 ano. Vou continuar dando meu melhor pra te fazer feliz e espero comemorar muitos outros anos com você, meu amor.",
+    mensagem6: "Obrigado por esse ano, pelos momentos bons e até pelos difíceis, porque todos eles me fizeram ter mais certeza de que é com você que eu quero continuar escrevendo essa história. Que venham muitos anos, com mais cosquinhas, pegações, callzinhas, abraços, beijinhos e um amor cada vez mais forte.",
+    mensagem7: "Te amo muitão muitão muitão mozin.",
+   }
 ];
 
 // Função para mostrar a seção de Cartinhas
@@ -115,11 +158,13 @@ document.getElementById("cartinhas-lista").addEventListener("click", function(ev
       const conteudo = cartinhasTextos[numero];
       cartinhaConteudo.innerHTML = `
         <h2 style="font-family: 'Great Vibes', cursive; text-align: center; color: #333; font-size: 2.2rem; margin-bottom: 15px;">${conteudo.titulo}</h2>
-        <p style="font-size: 1.6rem; text-align: justify; color: #333;">${conteudo.mensagem}</p>
-        <p style="font-size: 1.6rem; text-align: justify; color: #333;">${conteudo.mensagem2}</p>
-        <p style="font-size: 1.6rem; text-align: justify; color: #333;">${conteudo.mensagem3}</p>
-        <p style="font-size: 1.6rem; text-align: justify; color: #333;">${conteudo.mensagem4}</p>
-
+        <p style="font-size: 1.6rem; text-align: justify; color: #333; margin-bottom: 3px;">${conteudo.mensagem}</p>
+        <p style="font-size: 1.6rem; text-align: justify; color: #333; margin-bottom: 3px;">${conteudo.mensagem2}</p>
+        <p style="font-size: 1.6rem; text-align: justify; color: #333; margin-bottom: 3px;">${conteudo.mensagem3}</p>
+        <p style="font-size: 1.6rem; text-align: justify; color: #333; margin-bottom: 3px;">${conteudo.mensagem4}</p>
+        <p style="font-size: 1.6rem; text-align: justify; color: #333; margin-bottom: 3px;">${conteudo.mensagem5}</p>
+        <p style="font-size: 1.6rem; text-align: justify; color: #333; margin-bottom: 5px;">${conteudo.mensagem6}</p>
+        <p style="font-size: 2rem; text-align: center; color: #333; margin-bottom: 3px;">${conteudo.mensagem7}</p>
       `;
       cartinhaConteudo.style.display = "block";
       cartinhaConteudo.dataset.numero = numero; // Guarda qual cartinha foi aberta

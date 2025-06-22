@@ -3,27 +3,27 @@ const musicas = [
   {
     titulo: "Samba Paixão",
     arquivo: "musicas/musica1.mp3",
-    capa: "img/capa1.jpg"
+    capa: "img/capa1.webp"
   },
   {
     titulo: "Grão de Areia",
     arquivo: "musicas/musica2.mp3",
-    capa: "img/capa2.jpg"
+    capa: "img/capa2.webp"
   },
   {
     titulo: "Memories",
     arquivo: "musicas/musica3.mp3",
-    capa: "img/capa3.jpg"
+    capa: "img/capa3.webp"
   },
   {
     titulo: "Meu Esquema",
     arquivo: "musicas/musica4.mp3",
-    capa: "img/capa4.jpg"
+    capa: "img/capa4.webp"
   },
   {
     titulo: "Você Gosta Dela",
     arquivo: "musicas/musica5.mp3",
-    capa: "img/capa5.jpg"
+    capa: "img/capa5.webp"
   }
 ];
 

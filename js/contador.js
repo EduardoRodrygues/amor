@@ -1,5 +1,5 @@
 // Contador de tempo de namoro
-const dataInicio = new Date('2024-06-29T15:00:00'); // 29/07/2023
+const dataInicio = new Date('2024-06-29T15:00:00'); // 29/06/2024
 
 function atualizarContador() {
   const agora = new Date();
@@ -15,9 +15,6 @@ function atualizarContador() {
   document.getElementById("minutos").textContent = minutos;
   document.getElementById("segundos").textContent = segundos;
 }
-
-setInterval(atualizarContador, 1000);
-atualizarContador();
 
 setInterval(atualizarContador, 1000);
 atualizarContador();
