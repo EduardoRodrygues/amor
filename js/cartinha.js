@@ -117,7 +117,7 @@ const cartinhasTextos = [
     mensagem3: "Eu sei que nem sempre fui o melhor namorado do mundo, mas sempre me esforcei ao máximo para ser a minha melhor versão para você,  mesmo vacilando em algumas situações. Mas a real é que você é a melhor coisa que me aconteceu. E não importa se o mês tá conturbado, se a rotina tá pesada, se a gente briga, o que importa é que no final das contas, a gente sempre encontra um no outro aquele lugar seguro.",
     mensagem4: "Você me ensinou o que é parceria, o valor de cuidar e ser cuidado, de ouvir, de rir até das situações mais bestas e de valorizar o simples. Porque o simples com você, vira especial.",
     mensagem5: "Me sinto muito importante e grato por realizar um dos seus sonhos, o de namorar, e por estar ao seu lado nesse 1 ano. Vou continuar dando meu melhor pra te fazer feliz e espero comemorar muitos outros anos com você, meu amor.",
-    mensagem6: "Obrigado por esse ano, pelos momentos bons e até pelos difíceis, porque todos eles me fizeram ter mais certeza de que é com você que eu quero continuar escrevendo essa história. Que venham muitos anos, com mais cosquinhas, pegações, callzinhas, abraços, beijinhos e um amor cada vez mais forte.",
+    mensagem6: "Obrigado por esse ano, pelos momentos bons e até pelos difíceis, porque todos eles me fizeram ter mais certeza de que é com você que eu quero continuar escrevendo essa história. Que venham muitos anos, com mais callzinhas, abraços, beijinhos, pegações e um amor cada vez mais forte.",
     mensagem7: "Te amo muitão muitão muitão mozin.",
    }
 ];
